@@ -19,6 +19,7 @@
     "vite": "^2.6.4"
   },
   "dependencies": {
+    "@sveltejs/adapter-netlify": "^1.0.0-next.0",
     "daisyui": "^1.16.2"
   }
 }
