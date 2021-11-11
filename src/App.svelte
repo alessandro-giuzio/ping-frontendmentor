@@ -1,13 +1,11 @@
 <script>
 import Hero from "./lib/Hero.svelte";
-import Form from "./lib/Form.svelte";
 import Footer from "./lib/Footer.svelte";
 
 </script>
 
 <main>
 <Hero />
-<Form />
 <Footer />
 </main>
 
@@ -37,10 +35,14 @@ import Footer from "./lib/Footer.svelte";
 }
 
   main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 auto;
     line-height: 1.6;
     text-align: center;
-    padding: 1em;
-    margin: 0 auto;
+    /* padding: 1em; */
+    /* margin: 0 auto; */
     height: 100vh;
   }
 
@@ -50,19 +52,15 @@ import Footer from "./lib/Footer.svelte";
   display: block;
 }
 
-.flow-content > * + * {
-  margin-top: var(--flow-spacer, 1em);
-}
 
 .split {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 @media (min-width: 40rem) {
-  .split {
-    flex-direction: row;
-  }
+
+
 }
 
 
