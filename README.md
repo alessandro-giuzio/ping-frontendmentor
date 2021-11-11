@@ -40,4 +40,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-My first deploy wit Svelte!
+My first deploy with Svelte!
