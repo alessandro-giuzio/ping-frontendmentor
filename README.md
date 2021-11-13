@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/ping-1KHsb5BdT)
+- Live Site URL: [Live Demo](https://reverent-fermi-8269a5.netlify.app/)
 
 ### Built with
 
