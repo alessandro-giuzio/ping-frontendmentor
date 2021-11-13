@@ -21,13 +21,13 @@
     }
     .container {
         text-align: center;
-        margin-top: 6.25rem;
+        margin: 6.25rem auto 0;
     }
 
     .container h2 {
         color: var(--clr-dark-blue);
         font-size: 2.5rem;
-        margin-bottom: 20px;
+        margin: 20px;
         text-transform: uppercase;
         font-weight: var(--fw-600);
     }
@@ -65,6 +65,9 @@
         cursor: pointer;
         outline: none;
     }
+
+
+
 
 
 </style>
